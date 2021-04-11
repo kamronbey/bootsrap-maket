@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+a {
+   display: inline-block;
+   text-decoration: none;
+}
+
+.container {
+   width: 1140px;
+   margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: 0.5s;
+}
+
+.container-fluid {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-ml {
+    margin-top: 7px;
+    margin-left: 200px;
+}
+
+.header-nav {
+    padding: 15px 0;
+}
+
+.header-img {
+    margin-left: 30px;
+}
+.nav-modal-box {
+    margin-top: 6px;
+    margin-left: 50px;
+}
+
+.nav-modal {
+    margin-left: 40px;
+}
+
+.link1 {
+    margin-right: 8px;
+}
+
+.link3 {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.link5 {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.link7 {
+    margin-left: 8px;
+}
+
+.nav-modal-link {
+    background: #6F2CFF;
+    border-radius: 25px;
+    border: 2px solid #6F2CFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    transition: 0.5s;
+}
+
+.nav-modal-link:hover {
+    background-color: #fff;
+    color:  #6F2CFF;
+}
+
+.nav-modal {
+    font-size: 14px;
+    line-height: 14px;
+    color: #1C1C1C;
+}
+
+.link {
+    font-size: 14px;
+    line-height: 14px;
+    color: #1C1C1C;
+}
+
+.main {
+    padding: 134px 0;
+    background-image: url("../img/Rectangle.png");
+    background-size: cover;
+}
+
+.input-input {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.button-div {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.group-input {
+    width: 40%;
+}
+
+.brand {
+    padding: 50px 0;
+}
