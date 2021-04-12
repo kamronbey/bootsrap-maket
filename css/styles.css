@@ -236,6 +236,11 @@ body {
 .qubit {
     padding: 80px 0;
 }
+
+.qubit-list {
+    cursor: pointer;
+}
+
 .qubit-text {
     margin-bottom: 46px;
 }
@@ -264,4 +269,84 @@ body {
 .easy-link:hover {
     background-color: #fff;
     color: #6F2CFF;
+}
+/* what-section */
+.what-list {
+    cursor: pointer;
+} 
+.what-item {
+    padding-right: 50px;
+}
+
+.industry-item {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 40%;
+}
+
+.connec-link {
+    background: #6F2CFF;
+    color: #fff;
+    border-radius: 30px;
+    border: 2px solid #6F2CFF;
+    padding: 15px 35px;
+    transition: 0.5s;
+}
+
+.connec-link:hover {
+    background-color: #fff;
+    color: #6F2CFF;
+}
+
+.book {
+    padding: 100px 0;
+    background-image: url("../img/Rectangle16.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.connect-image {
+    margin-left: 10px;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer-mini-list {
+    position: relative;
+}
+
+.footer-mini-item {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.footer-item-title {
+    margin-bottom: 25px;
+}
+
+.footer-mini-link {
+    position: relative;
+}
+
+.footer-mini-link::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: #ffffff;
+    bottom: -5px;
+    transition: 0.7s transform;
+    transform: scaleX(0);
+    transform-origin: center;
+}
+
+.footer-mini-link:hover::before {
+    transform: scaleX(1);
+    transform-origin: center;
+    background-color: #ffffff;
 }
