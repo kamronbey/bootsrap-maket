@@ -239,3 +239,29 @@ body {
 .qubit-text {
     margin-bottom: 46px;
 }
+/* Easy-section */
+.easy {
+    background-color: #F5F5F5;
+    padding: 100px 0;
+}
+
+.easy-text {
+    margin-bottom: 90px;
+}
+
+.link-easy {
+    margin-left: 25px;
+}
+
+.easy-link {
+    background: #6F2CFF;
+    border-radius: 30px;
+    padding: 15px 35px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.easy-link:hover {
+    background-color: #fff;
+    color: #6F2CFF;
+}
