@@ -128,4 +128,114 @@ body {
 
 .brand {
     padding: 50px 0;
+    position: relative;
+}
+
+.brand-link {
+    position: relative;
+}
+
+.brand-item {
+    cursor: pointer;
+}
+
+.brand-link::before {
+    position: absolute;
+    content: '';
+    left: 473px;
+    width: 15%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: #6F2DFF;
+    bottom: -5px;
+    transition: 0.7s transform;
+    transform: scaleX(0);
+    transform-origin: center;
+}
+
+.brand-link:hover::before {
+    transform: scaleX(1);
+    transform-origin: center;
+    background-color: #6F2DFF;
+}
+
+/* grow-section */
+.grow {
+    position: relative;
+    padding: 70px 0;
+}
+
+.grow-meet-link {
+    position: relative;
+    margin-left: 20px;
+}
+
+.grow-meet-link::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: #6F2DFF;
+    bottom: -5px;
+    transition: 0.7s transform;
+    transform: scaleX(0);
+    transform-origin: center;
+}
+
+.grow-meet-link:hover::before {
+    transform: scaleX(1);
+    transform-origin: center;
+    background-color: #6F2DFF;
+}
+
+.grow-link {
+    background: #6F2CFF;
+    color: #fff;
+    border-radius: 30px;
+    border: 2px solid #6F2CFF;
+    padding: 15px 35px;
+    transition: 0.5s;
+}
+
+.grow-link:hover {
+    background-color: #fff;
+    color: #6F2CFF;
+}
+
+.grow-read-link {
+    position: relative;
+}
+
+.grow-read-link::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: #191919;
+    bottom: -5px;
+    transition: 0.7s transform;
+    transform: scaleX(0);
+    transform-origin: center;
+}
+
+.grow-read-link:hover::before {
+    transform: scaleX(1);
+    transform-origin: center;
+    background-color: #191919;
+}
+
+.grow-first-div {
+    padding: 80px 0;
+}
+
+/* Qubit-section */
+.qubit {
+    padding: 80px 0;
+}
+.qubit-text {
+    margin-bottom: 46px;
 }
